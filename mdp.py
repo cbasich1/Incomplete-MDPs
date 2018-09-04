@@ -169,7 +169,7 @@ class GridMDP(MDP):
 							   for x in range(self.cols)]
 							   for y in range(self.rows)]))
 
-	def to_arros(self, policy):
+	def to_arrows(self, policy):
 		chars = {(1,0):'>', 
 				 (0,1):'^', 
 				(-1,0):'<', 
